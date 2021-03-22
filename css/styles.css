@@ -7,8 +7,9 @@
 }
 /* font-family: 'Montserrat', sans-serif; */
 
-/* Typography */
 
+
+/* Typography */
 html{
     font-size: 62.5%;
 }
@@ -34,7 +35,6 @@ h3{
 p{
     margin-top: 0;
 }
-
 @media screen and (min-width:1024px){
     body{
         font-size: 1.8rem;
@@ -51,7 +51,6 @@ p{
 }
 
 /* Links */
-
 a{
     text-decoration: none;
 }
@@ -72,5 +71,33 @@ a{
 @media screen and (min-width:1024px){
     .link-arrow{
         font-size: 1.5rem;
+    }
+}
+
+/* Badges */
+.badge{
+    border-radius: 31px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem 1.3rem;
+    white-space: nowrap;
+}
+.badge--primary{
+    background: var(--color-primary);
+    color: white;
+}
+.badge--secondry{
+    background:var(--color-secondry);
+    color: white;
+}
+.badge--small{
+    font-size: 1.6rem;
+}
+@media screen and (min-width:1024px){
+    .badge{
+        font-size: 1.5rem;
+    }
+    .badge--small{
+        font-size: 1.2rem;
     }
 }
