@@ -101,3 +101,28 @@ a{
         font-size: 1.2rem;
     }
 }
+/* Lists */
+.list{
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-headings);
+}
+.list--inline .list__item{
+    /* display: inline;   * using this we will not be able to apply margin  */ 
+    display: inline-block;
+    margin-right: 6.7rem;
+}
+.list--checkMark{
+    list-style-image: url(/images/tick.svg);
+    padding-left: 3rem;
+}
+.list--checkMark .list__item{
+    padding-left: .5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-wdith:1024px){
+    .list--checkMark .list__item{
+        padding-left: 0;
+    }
+}
