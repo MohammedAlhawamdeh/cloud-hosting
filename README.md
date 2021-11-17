@@ -2,7 +2,7 @@
 
 This is a website Landing page created by pure CSS.
 
-What I have learned so far by building this project : 
+What I have learned so far by building this project :
 
 1- Using 'Normalizing_CSS' to bypass the browser default styles.
 
@@ -25,3 +25,5 @@ What I have learned so far by building this project :
 10 - Using BEM and variables to write clean CSS.
 
 This is by far the most thing I could accomplish using pure CSS.
+
+![screenshot](/uploads/Hoster.png)
